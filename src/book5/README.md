@@ -1,7 +1,7 @@
 # 算法图解
 * ch1: 算法简介
 
-   * 二分查找
+   * [二分查找](https://github.com/lgjlife/Algorithm-Exercise/blob/master/src/book5/ch1/BinarySearch.java)
    
 * ch2: 选择排序
 * ch3: 递归

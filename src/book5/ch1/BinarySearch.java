@@ -8,13 +8,15 @@ import java.util.concurrent.TimeUnit;
 /**
  *功能描述
  * @author lgj
- * @Description  二分查找算法
+ * @Description  二分查找算法  O(logN)
  * @date 3/29/19
 */
 public class BinarySearch {
 
+    private  static  int  searchTimes = 0;
 
     public static  Integer search(int[] array,int data){
+        searchTimes = 0;
         int index  = 0;
         int left = 0;
         int right = array.length-1;
@@ -24,10 +26,10 @@ public class BinarySearch {
         }
 
         int mid = (left + right) >> 1;
-        System.out.println("left = " + left + "  right = " + right);
-        System.out.println("mid = " + mid);
+       // System.out.println("left = " + left + "  right = " + right);
+       // System.out.println("mid = " + mid);
         while(left <= right){
-
+            searchTimes++;
             if(data == array[mid]){
                 return mid;
             }
@@ -50,8 +52,8 @@ public class BinarySearch {
 
 
 
-            System.out.println("left = " + left + "  right = " + right);
-            System.out.println("mid = " + mid);
+           // System.out.println("left = " + left + "  right = " + right);
+           // System.out.println("mid = " + mid);
 
         }
 
@@ -62,12 +64,14 @@ public class BinarySearch {
     public static void main(String args[]){
 
 
-        int[]  array = new int[100];
-        for(int i = 0; i< 100; i++){
+        int[]  array = new int[400000000];
+
+        for(int i = 0; i< array.length; i++){
             array[i] = i;
         }
 
         int index = search(array,99);
+        System.err.println("数组长度：" +  array.length +"  搜索次数:" + searchTimes);
         System.err.println("index = " + index);
         System.err.println("data = " + array[index]);
 
