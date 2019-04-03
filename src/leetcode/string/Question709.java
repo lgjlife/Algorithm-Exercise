@@ -4,7 +4,7 @@ package leetcode.string;
 /**
  *功能描述 
  * @author lgj
- * @Description 
+ * @Description  转换成小写字母
  * @date 4/3/19
 */
 public class Question709 {
