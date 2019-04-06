@@ -18,3 +18,7 @@
 |804|简单|摩斯密码|[代码](https://github.com/lgjlife/Algorithm-Exercise/blob/master/src/leetcode/string/Question804.java)|4ms|100%|
 
 
+# Binary Search
+| 题号|难度|描述|代码|耗时|超越|
+| ----| ---|---|---|---|---|
+|704|简单|二分法|[代码](https://github.com/lgjlife/Algorithm-Exercise/blob/master/src/leetcode/binarySearch/Question704.java)|1ms|100%|
