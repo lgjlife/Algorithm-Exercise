@@ -22,3 +22,11 @@
 | 题号|难度|描述|代码|耗时|超越|
 | ----| ---|---|---|---|---|
 |704|简单|二分法|[代码](https://github.com/lgjlife/Algorithm-Exercise/blob/master/src/leetcode/binarySearch/Question704.java)|1ms|100%|
+
+# 位运算
+| 题号|难度|描述|代码|耗时|超越|
+| ----| ---|---|---|---|---|
+|136|简单|只出现一次的数字|[代码](https://github.com/lgjlife/Algorithm-Exercise/blob/master/src/leetcode/bit/Question136.java)|1ms|99.44%|
+
+
+

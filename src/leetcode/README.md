@@ -26,8 +26,11 @@
 # 位运算
 | 题号|难度|描述|代码|耗时|超越|
 | ----| ---|---|---|---|---|
-|136|简单|只出现一次的数字|[代码](https://github.com/lgjlife/Algorithm-Exercise/blob/master/src/leetcode/bit/Question136.java)|1ms|100%|
+|136|简单|只出现一次的数字|[代码](https://github.com/lgjlife/Algorithm-Exercise/blob/master/src/leetcode/bit/Question136.java)|1ms|99.44%|
+
+# 双指针
+| 题号|难度|描述|代码|耗时|超越|
+| ----| ---|---|---|---|---|
+|344|简单|反转字符串|[代码](https://github.com/lgjlife/Algorithm-Exercise/blob/master/src/leetcode/dualptr/Question344.java)|3ms|90.23%|
 
 
-
-Question136
