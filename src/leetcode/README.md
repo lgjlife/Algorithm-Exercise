@@ -14,6 +14,7 @@
 # 字符串
 | 题号|难度|描述|代码|耗时|超越|
 | ----| ---|---|---|---|---|
+|58|简单|最后一个单词的长度。|[代码](https://github.com/lgjlife/Algorithm-Exercise/blob/master/src/leetcode/string/Question58.java)|1ms|100%|
 |709|简单|大写转小写|[代码](https://github.com/lgjlife/Algorithm-Exercise/blob/master/src/leetcode/string/Question709.java)|0ms|100%|
 |804|简单|摩斯密码|[代码](https://github.com/lgjlife/Algorithm-Exercise/blob/master/src/leetcode/string/Question804.java)|4ms|100%|
 
