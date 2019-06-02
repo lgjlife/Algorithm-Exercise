@@ -27,10 +27,15 @@
 # 位运算
 
 a^b : 无进位相加
+
 a^0 : a
+
 a^a : 0
+
 a^b^c = a^c^b
+
 a&b : 得到进位 --> 01 & 11 --> 01 第一位为进位。 
+
 | 题号|难度|描述|代码|耗时|超越|
 | ----| ---|---|---|---|---|
 |136|简单|只出现一次的数字|[代码](https://github.com/lgjlife/Algorithm-Exercise/blob/master/src/leetcode/bit/Question136.java)|1ms|99.44%|
